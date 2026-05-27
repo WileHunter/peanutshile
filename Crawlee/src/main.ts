@@ -232,7 +232,7 @@ class ExternalLinkCollector {
     /** 写入 JSON + CSV 到 _audit 目录 */
     flush(mirrorDir: string) {
         if (this.records.length === 0) {
-            console.log(`\n✅ [${this.targetHostname}] 未发现外链`);
+            console.log(`\n✅ [${this.targetHostname}] 爬取任务完成`);
             return;
         }
 
