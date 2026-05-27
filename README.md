@@ -89,14 +89,14 @@ cd Crawlee
 http://www.baidu.com
 
 # （推荐!!!）方式二：手动使用 ip.txt 批量爬取
-# 编辑 ip.txt，添加站点（每行一个）
+# 编辑 crawlee/src/ip.txt，添加站点（每行一个）
 npx tsx src/main.ts
 ```
 
 ## 高级使用
 
 ```bash
-# 修改config.ts，自定义爬虫行为
+# 修改crawlee/src/config.ts，自定义爬虫行为
 
 proxy代理
 输出目录
